@@ -1,0 +1,8 @@
+--COMANDOS PARA SUBIR A GITHUB
+git init
+git add .
+git commit -m "primer-commit"
+
+--SI SE BORRA ALGO PARA RESTAURAR
+git checkout --.
+[mas codigo de github]
