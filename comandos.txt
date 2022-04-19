@@ -1,0 +1,15 @@
+ionic start peliculasApp tabs
+ionic g s services/movies skipTests=true
+ionic g m pipes
+ionic g pipe pipes/imagen
+ionic g m components
+ionic g c components/slideshow-backdrop
+ionic g c components/slideshow-poster
+ionic g c components/slideshowPares --skipTests=true
+ionic g pipe pipes/pares
+ionic g c components/detalle
+npm install @ionic/storage
+npm install @ionic/storage-angular
+https://github.com/ionic-team/ionic-storage
+ionic g s services/dataLocal
+ionic g pipe pipes/filtroImagen
